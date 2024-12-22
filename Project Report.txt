@@ -1,0 +1,55 @@
+Project Report
+
+Title: Development of an E-commerce Sales Chatbot
+
+Objective:
+To design and develop a chatbot that simplifies the shopping experience on an e-commerce platform, enabling users to search, explore, and interact with products seamlessly.
+
+
+Architecture
+1. Frontend:
+   - HTML, CSS for responsive design.
+   - JavaScript for client-side interactions and API communication.
+2. Backend:
+   - Flask framework for handling user queries and managing API requests.
+   - Flask-SQLAlchemy for database interaction.
+3. Database:
+   - SQLite containing 100+ mock products with attributes like name, price, and category.
+
+
+Technology Stack
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: Flask (Python)
+- Database: SQLite
+
+
+Challenges and Solutions
+1. Challenge: Designing a responsive chatbot UI.
+   - Solution: Utilized CSS media queries and a modular layout.
+2. Challenge: Managing API errors and invalid queries.
+   - Solution: Implemented robust error handling in Flask.
+3. Challenge: Simulating a realistic product inventory.
+   - Solution: Created a mock database with diverse product attributes.
+
+
+Implementation Details
+1. Frontend:
+   - Responsive design ensures usability across devices.
+   - Chatbot interface supports product filtering and detailed views.
+2. Backend:
+   - API endpoints handle search queries and return JSON responses.
+   - SQLite database stores and retrieves product details.
+3. Database:
+   - Mock inventory includes fields like product name, category, price, and description.
+
+
+Results
+- A fully functional chatbot for e-commerce use cases.
+- Seamless integration of frontend and backend.
+- Mock database provides realistic search results.
+
+
+Future Enhancements
+- Implement NLP for improved query understanding.
+- Add user authentication and personalized product recommendations.
+- Expand inventory to support more product categories.
