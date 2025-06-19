@@ -12,14 +12,6 @@ This project implements a chatbot designed to enhance the shopping experience on
 
 ## Technology Stack
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: Python (Flask, Flask-SQLAlchemy, Flask-CORS)
-- **Database**: SQLite (mock inventory)
-- **Tools**: Visual Studio Code, Python3, SQLite Browser
-
-## Setup Instructions
-
-### Prerequisites
-1. Python 3.7+
-2. Flask and required libraries:
-   ```bash
-   pip install flask flask-sqlalchemy flask-cors
+- **Backend**: Python
+- **Database**: SQL
+- **Tools**: Visual Studio Code, PyCharm
